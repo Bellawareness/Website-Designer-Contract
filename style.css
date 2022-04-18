@@ -1,63 +1,56 @@
 body{
 		background-color: #f6feff;
- 		background-image: url("Picture13.jpg");
 		background-attachment: fixed;
 		background-size: contain;
 		background-repeat: no-repeat;
 }
 
-.contain{
-text-align: center;
-	  position: relative;
+
+
+main{
+	padding: 10px 30px;
+	
+}
+
+.jumbotron{
+		background-color: #f6feff;
+ 		background-image: url("b4.jpg");
+		background-size: cover;
+					text-align: center;
 
 }
 
-
-.box {
-  position: absolute;
-
+.display-4,
+.lead{
+			background-color: #719fa2;
+	opacity: 0.85;
+color: white;
 }
+
+
 
 h1{
 	color:#30bcc1;
-padding-top: 90px;
 			text-align: center;
-
 }
 
-h2{
-	color:#30bcc1;
-padding-top: 90px;
-	margin-left: 10px;
-		text-align: center;
-
-}
-
-h3, 
+h3,
 p{
 	color:#5f6767;
 	font-size: 20px;
 	padding: 10px 30px;
-	text-align: center;
 }
 
 
-ul{
-		color:#5f6767;
-	font-size: 20px;
-	padding: 30px 50px;
-  list-style-type: none;
-	line-height: 2.5;
-	font-family: Papyrus;
-}
+
 
 button{
 		color:#30bcc1;
 	padding: 10px 10px;
 	margin: 50px 30px;
-	box-shadow: 0px 10px 14px -7px #9bb1b5;
-	background:linear-gradient(to bottom, #599bb3 5%, #bfd5d9 100%);
-	background-color:#599bb3;
+	box-shadow: 0px 10px 14px -7px #9dd7e2;
+	background:linear-gradient(to bottom, #399d9c 5%, #bfd5d9 100%);
+	background-color:#3a887b;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
@@ -65,7 +58,7 @@ button{
 	font-weight:bold;
 }
 
-
+footer,
 form{
 		color:#1d6668;
 		padding: 30px 30px;

@@ -85,7 +85,13 @@ button:active {
 }
 
 
-/* how do I know how to size my margins to match.a smaller screen?  */
+
+
+footer{
+		color:#1d6668;
+		padding: 30px 30px;
+		text-align: center;
+}
 
 @media only screen and (max-width: 768px) {
     .container{
