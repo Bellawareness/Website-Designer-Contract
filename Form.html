@@ -19,8 +19,11 @@
     <form   action="https://formspree.io/f/xyyonenn"
   method="POST">
   <div>
-    <input name="name" placeholder="Your name" required />
-  </div>
+  	  <input name="name" placeholder="Your name" required />
+   <label> </label>
+      <input type="text" name="email" placeholder="Your Email" required>
+	
+	</div>
   <div>
     <canvas id="signature" width="300" height="100"></canvas>
   </div>
@@ -28,13 +31,14 @@
     <input type="hidden" name="signature" required />
   </div>
   <button type="submit">Send</button>
+			
  </form>
 
 	
 
 
 <p>Consent: 
-By signing this document, you agree that you have read and understood the information provided a signed copy will be sent to the email provided within 3 days.
+By signing this document, you agree that you have read and understood the information provided. A signed copy will be sent to the email provided within 3 days.
 
 </p>
 
@@ -55,9 +59,10 @@ By signing this document, you agree that you have read and understood the inform
             <a class="nav-link" href="About.html">About</a>
         </li>
     </ul>
-		 <script src="script.js"></script>
+		
 			<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>	
 		  			   
+		 <script src="script.js"></script>
 
   </body>
 </html>
